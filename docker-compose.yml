@@ -1,0 +1,10 @@
+version: "2.3"
+
+services:
+
+  server:
+
+    build: my_flask_app/
+
+    ports:
+      - 5000:5000
